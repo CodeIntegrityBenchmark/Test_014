@@ -12,8 +12,8 @@ Expected Commits against integrity rules :
 * Create a feature branch from main and make a commit on that branch.
 * Create a second commit on the main branch.
 * Create a sub-feature branch based on the feature branch and make a commit on the sub-feature branch
-* Make a second commit on the sub-feature that will conflict with feature.
+* Make a few commits on the sub-feature that will conflict with feature.
 * Make a commit on the feature branch that also conflicts with sub-feature
-* Then squash and merge sub-feature branch using a PR with the feature branch. Resolve conflicts
+* Then squash and merge sub-feature branch without using a PR with the feature branch. Resolve conflicts
 * Create a third commit on the main branch that conflicts with the sub feature branch.
 * Create multiple commits on the feature branch and then raise a PR squash and merge the feature branch with the main branch.
